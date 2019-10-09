@@ -4,7 +4,7 @@ A two-person demonstration game of virtual air hockey using hand gestures input 
 This is a completed game that I created in order to demonstrate my hand tracking device prototype.
 
 # Technologies Used/Requirements
-- Unity 2017.3.0f3
+- Unity 2017.3.1f1
 - Leap Motion SDK (Orion software)
 - Leap Motion Experimental Multidevice Unity Module [available here](https://github.com/leapmotion/UnityModules/tree/feat-multi-device/Multidevice%20Service)
 - SteamVR (Software + Unity plugin)
@@ -25,7 +25,7 @@ The game runs on a single scene (either **Air Hockey VR** or **Air Hockey** depe
 - TrueMotionObjectVer: Core logic and software pipeline for the hand tracking device. This script polls hand position and velocity from the Leap Motion SDK and computes virtual world coordinates to move the hockey pads while controlling the motorized tracking device (PID controller) in order to relocate the sensor in real-time
 
 # Installation
-All game files, assets, fonts, and libraries are located in the ZIP archive file, which can be compiled directly or converted into a jar to play.
+The game is contained in a single scene (Air Hokey VR) and can be tested/built upon directly.
 
 # License
 MIT
